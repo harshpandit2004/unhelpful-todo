@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #353535;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.heading{
+  font-size: 4rem;
+}
+
+.addtodo-title{
+  background-color: #e4e4e4bb;
+  text-align: center;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: none;
+  border: none;
+}
+.addtodo-title:hover{
+  transition-delay: .5s;
+  background-color: #e4e4e4;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 15px 20px #00000066;
+}
+.addtodohandler{
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #c0c0c0;
+  box-shadow: 0px 15px 20px #ffffff66;
+  border: none;
+  border-radius: 45px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 2rem;
+}
+.addtodohandler:hover{
+  background-color: #ffffff;
+  box-shadow: 0px 15px 20px #ffffff66;
+  color: rgb(0, 0, 0);
+  transform: translateY(-7px);
+}
+
+.addTodoWalaDiv{
+  transition: all 0.3s ease 0s;
+  transition-delay: 2s;
+  background-color: #353535;
+  box-shadow: 0px 0px 20px #ffffff66;
+  color:#ffffff;
+  width: 50%;
+  padding: 2rem 0rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 4rem;
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggleaddtodo{
+  width: 10%;
+  height: fit-content;
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: rgb(211, 211, 211);
+  background-color: #353535;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 0px 20px #b8b8b81a;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 2rem;
+}
+
+.toggleaddtodo:hover{
+  background-color: #353535;
+  box-shadow: 0px 0px 30px #ffffff66;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.todo-list{
+  transition: all 0.3s ease 0s;
+  transition-delay: 2s;
+  background-color: #494949;
+  box-shadow: 0px 0px 20px #ffffff66;
+  color: #ffffff;
+  width: 50%;
+  padding: 2rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 1rem;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cleardonetodos {
+  width: 10%;
+  height: fit-content;
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 2rem;
+}
+.cleardonetodos:hover{
+  background-color: #e52e2e;
+  box-shadow: 0px 15px 20px #e52e2e66;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 600px){
+
+.toggleaddtodo{
+  width: 10rem;
+}
+.addTodoWalaDiv{
+  width: 25rem;
+}
+.todo-list{
+  width: 20rem;
+}
+.cleardonetodos {
+  width: 10rem;
+}
+}
