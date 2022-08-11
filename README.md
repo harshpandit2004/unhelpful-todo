@@ -1,3 +1,9 @@
+# Hosted [At](https://unhelpful-todo.netlify.app/)
+
+# Introduction
+
+A react app which stores your todos statically for only one instance of your site. it does not have a backend, nor does it store the data locally. that is the reason it is unhelpful.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
