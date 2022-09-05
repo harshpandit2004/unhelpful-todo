@@ -92,7 +92,7 @@ code {
 }
 
 .toggleaddtodo{
-  width: 10%;
+  width: 100%;
   height: fit-content;
   padding: 1rem;
   font-family: 'Roboto', sans-serif;
